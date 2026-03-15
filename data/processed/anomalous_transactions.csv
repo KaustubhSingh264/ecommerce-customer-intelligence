@@ -1,0 +1,91 @@
+order_id,customer_id,customer_name,city,product_category,price,quantity,payment_method,order_date,delivery_days,rating,revenue
+ORD100231,CUS1390,Donald Rollins,North Angelaside,Books,4710.1,5,Net Banking,2025-09-16,4,3.0,23550.5
+ORD100292,CUS1516,Michelle Parker,New Lauren,Home,4943.42,5,Cash on Delivery,2024-07-21,1,4.0,24717.1
+ORD100494,CUS3941,Anna Hopkins,Mooreland,Electronics,4964.45,5,Net Banking,2025-04-21,3,3.6,24822.25
+ORD100675,CUS2582,Courtney Moyer,East Christineborough,Electronics,4970.75,5,UPI,2025-11-20,4,2.8,24853.75
+ORD100722,CUS7096,Deborah Love,North Jeffreyview,Books,4923.88,5,Net Banking,2025-07-21,2,2.8,24619.4
+ORD101119,CUS2469,Carolyn Cox,West Annachester,Books,4960.56,5,Debit Card,2024-03-25,7,4.5,24802.800000000003
+ORD101146,CUS3293,Michael Taylor,Lisafurt,Beauty,4937.23,5,Credit Card,2024-11-12,5,3.0046947368421053,24686.149999999998
+ORD101163,CUS9505,Ethan Gillespie,Charlestown,Books,4897.39,5,Credit Card,2025-11-13,5,4.1,24486.95
+ORD101238,CUS9748,Heidi Vaughn,Kimberlyburgh,Home,4758.99,5,Cash on Delivery,2024-11-03,1,2.8,23794.949999999997
+ORD101240,CUS3781,Joseph Martin,South Jeffreyside,Clothing,4999.44,5,Cash on Delivery,2025-12-15,4,4.2,24997.199999999997
+ORD101446,CUS2272,Michelle Mason,Vancefurt,Books,4752.73,5,Cash on Delivery,2025-07-27,3,3.2,23763.649999999998
+ORD101555,CUS5378,Christine Duran,Maryton,Beauty,4847.61,5,Cash on Delivery,2024-05-31,1,2.5,24238.05
+ORD101639,CUS1738,Emily Gonzales,Brownborough,Beauty,4986.59,5,UPI,2025-11-30,1,4.9,24932.95
+ORD101762,CUS6045,Christopher Davis,East Eric,Beauty,4738.32,5,Debit Card,2024-05-12,7,3.6,23691.6
+ORD101803,CUS2566,Amber Bush,Port Kevinstad,Home,4806.53,5,Debit Card,2026-03-03,2,3.0046947368421053,24032.649999999998
+ORD101880,CUS5531,Unknown,Paulport,Books,4961.47,5,Net Banking,2024-12-15,4,3.0046947368421053,24807.350000000002
+ORD101922,CUS9252,Dillon Carter,West Dylan,Electronics,4788.42,5,UPI,2025-11-07,2,2.9,23942.1
+ORD101949,CUS9167,William Mercado,East Nathan,Home,4922.23,5,UPI,2025-01-01,3,1.7,24611.149999999998
+ORD102018,CUS2680,Mark Knox,Port Marissa,Beauty,4943.79,5,Debit Card,2025-09-06,3,3.5,24718.95
+ORD102083,CUS1753,Vincent Smith,Alexville,Electronics,4809.71,5,Debit Card,2024-11-09,3,4.1,24048.55
+ORD102107,CUS2063,Ryan Williams,Ashleyberg,Clothing,4910.79,5,Credit Card,2026-02-20,3,4.6,24553.95
+ORD102214,CUS5803,Cynthia Keller MD,Port Mark,Home,4995.59,5,Cash on Delivery,2025-04-05,2,3.3,24977.95
+ORD102375,CUS3991,David Boyd,New Laurabury,Electronics,4720.94,5,Credit Card,2024-11-20,7,3.5,23604.699999999997
+ORD102397,CUS7042,Michael Stout,Charleneborough,Clothing,4988.93,5,UPI,2026-03-01,4,3.9,24944.65
+ORD102639,CUS6055,Alicia Hughes,Lake Susan,Sports,4920.4,5,Credit Card,2024-11-17,2,2.4,24602.0
+ORD102779,CUS4870,Elizabeth Duffy,Tammyborough,Electronics,4732.21,5,Net Banking,2024-06-07,2,2.6,23661.05
+ORD102963,CUS6350,Vanessa Hamilton,Russellberg,Sports,4967.23,5,Cash on Delivery,2025-05-20,1,3.2,24836.149999999998
+ORD102991,CUS3212,Christopher Calhoun,West Patriciahaven,Clothing,4709.56,5,UPI,2025-08-12,1,2.0,23547.800000000003
+ORD103021,CUS4005,Jessica Hernandez,New Gloria,Electronics,4886.54,5,Credit Card,2024-11-13,5,4.6,24432.7
+ORD103209,CUS3007,Casey Simmons,New Dawn,Sports,4800.17,5,Debit Card,2025-12-08,3,3.4,24000.85
+ORD103658,CUS1553,William Cook,East Karafurt,Home,4715.29,5,UPI,2024-06-19,7,3.1,23576.45
+ORD103746,CUS5154,Angela Bailey,Jamesbury,Home,4775.93,5,Net Banking,2025-08-02,7,3.9,23879.65
+ORD103883,CUS4813,Ashley Jones,Wagnerchester,Electronics,4888.42,5,Cash on Delivery,2025-08-16,2,4.3,24442.1
+ORD104083,CUS6952,Shelia Brown,Longview,Books,4848.56,5,Credit Card,2025-12-07,7,3.8,24242.800000000003
+ORD104171,CUS2956,Karen Weaver,South Pamela,Books,4779.06,5,Debit Card,2024-03-14,4,1.0,23895.300000000003
+ORD104219,CUS2483,Brent Wood,Martinezville,Electronics,4878.14,5,Credit Card,2025-09-25,6,4.4,24390.7
+ORD104354,CUS5323,Sarah Rogers,New Beth,Books,4996.52,5,Net Banking,2024-08-14,6,3.1,24982.600000000002
+ORD104464,CUS8634,Alexander Mckinney,East Eric,Clothing,4953.73,5,Debit Card,2024-06-07,2,2.9,24768.649999999998
+ORD104827,CUS8252,Dawn Wilson,New Dylanbury,Beauty,4963.41,5,UPI,2025-02-03,6,3.0046947368421053,24817.05
+ORD104855,CUS4469,Jonathan Hernandez,Chanchester,Home,4945.81,5,Debit Card,2025-10-03,3,1.5,24729.050000000003
+ORD104867,CUS8492,Alyssa Alvarez,South Chelsea,Sports,4707.57,5,UPI,2024-08-27,7,3.4,23537.85
+ORD104876,CUS5666,Miguel Anderson,Nicholasberg,Beauty,4781.26,5,Cash on Delivery,2025-09-01,2,3.6,23906.300000000003
+ORD104881,CUS6481,Steven Ruiz,New Vincent,Books,4872.23,5,UPI,2025-05-30,3,3.6,24361.149999999998
+ORD105161,CUS5667,Brittney Ramirez,Lake Megan,Beauty,4730.05,5,Net Banking,2026-01-06,4,5.0,23650.25
+ORD105184,CUS4722,Marcus Rich,Lake Randall,Sports,4803.94,5,Cash on Delivery,2025-01-31,7,3.1,24019.699999999997
+ORD105232,CUS7763,Michael Freeman,East Samuelfurt,Sports,4899.62,5,Cash on Delivery,2025-04-10,3,3.9,24498.1
+ORD105567,CUS7029,Jamie Lewis,West Jessica,Clothing,4752.55,5,Cash on Delivery,2025-08-29,1,4.9,23762.75
+ORD105645,CUS7128,Corey Campbell,Jacobville,Clothing,4837.12,5,Debit Card,2025-04-20,4,4.4,24185.6
+ORD105672,CUS7072,Andrew Mcmillan,Dominguezbury,Sports,4813.45,5,Credit Card,2024-03-14,3,1.2,24067.25
+ORD105713,CUS7685,Justin Miller,South Pamela,Clothing,4939.72,5,UPI,2025-12-10,7,2.3,24698.600000000002
+ORD105731,CUS6240,Mary Johnson,Taylorborough,Books,4998.7,5,Debit Card,2024-10-21,1,1.9,24993.5
+ORD105762,CUS3279,Emily Franklin,Jasonton,Clothing,4751.5,5,UPI,2025-01-12,2,3.0046947368421053,23757.5
+ORD105775,CUS2706,Michael Young,Port Rebecca,Beauty,4892.02,5,Cash on Delivery,2026-01-01,1,1.6,24460.100000000002
+ORD105857,CUS5410,Dr. Sheila Friedman,South Emilyfurt,Books,4952.4,5,UPI,2024-07-31,7,4.6,24762.0
+ORD105874,CUS6332,Christopher Moore,Mooreport,Books,4830.15,5,UPI,2025-01-18,5,1.2,24150.75
+ORD105885,CUS8925,Phillip Hansen,Robertmouth,Clothing,4928.16,5,Debit Card,2026-02-08,3,3.4,24640.8
+ORD105940,CUS5948,Unknown,Lake Victor,Beauty,4830.39,5,Credit Card,2025-08-10,3,3.2,24151.95
+ORD106105,CUS9816,Joseph Jones,Edwardchester,Beauty,4883.92,5,Debit Card,2024-11-24,3,1.7,24419.6
+ORD106137,CUS1232,Hannah Parker,Morrisborough,Electronics,4855.47,5,Net Banking,2024-05-11,2,3.2,24277.350000000002
+ORD106434,CUS9995,Valerie Mcbride,New David,Beauty,4899.72,5,Cash on Delivery,2025-06-10,4,1.3,24498.600000000002
+ORD106810,CUS1308,Rebekah Bowen,East Amber,Home,4872.88,5,Debit Card,2025-01-26,4,1.5,24364.4
+ORD106858,CUS7178,Cheryl Ellis,Port Willie,Electronics,4829.25,5,Credit Card,2024-08-18,5,2.9,24146.25
+ORD106943,CUS1386,Jenna Jacobson,West Jason,Sports,4950.05,5,Credit Card,2024-05-23,7,4.5,24750.25
+ORD107305,CUS9499,Unknown,South Laurafort,Books,4973.42,5,Credit Card,2025-07-31,1,4.1,24867.1
+ORD107456,CUS8746,Bryan Nelson,Russellmouth,Books,4796.55,5,Debit Card,2025-08-02,5,1.5,23982.75
+ORD107596,CUS8824,Janet Le,Lake Davidchester,Electronics,4945.61,5,Credit Card,2024-10-08,7,2.1,24728.05
+ORD107856,CUS7865,Sarah Walter,South Taylor,Home,4889.45,5,UPI,2025-08-04,3,3.1,24447.25
+ORD107908,CUS3890,Adam Newman,New Charlesmouth,Home,4715.3,5,Cash on Delivery,2024-06-21,6,5.0,23576.5
+ORD107927,CUS5426,Alex Robinson,Tranborough,Beauty,4937.43,5,Debit Card,2025-05-08,3,3.0,24687.15
+ORD108163,CUS5476,John Jordan,Port Brooke,Sports,4973.17,5,UPI,2024-06-29,7,2.1,24865.85
+ORD108209,CUS8864,Nicholas Martin,South Emma,Home,4889.11,5,UPI,2025-12-27,7,3.1,24445.55
+ORD108231,CUS5718,Connie Welch,North Haleytown,Electronics,4881.61,5,UPI,2026-01-12,1,4.3,24408.05
+ORD108253,CUS8208,Timothy Jordan,Wademouth,Books,4807.38,5,Credit Card,2025-02-05,4,1.6,24036.9
+ORD108322,CUS5598,Paula Coffey,Morganmouth,Home,4884.08,5,UPI,2025-02-05,4,2.1,24420.4
+ORD108616,CUS6160,Todd Watts,South Christopherfort,Sports,4792.34,5,UPI,2025-12-08,7,4.2,23961.7
+ORD108682,CUS8866,Susan Marks,New Shaunmouth,Electronics,4859.06,5,Net Banking,2025-03-07,4,4.1,24295.300000000003
+ORD108699,CUS9077,Brian Hanson,North Kristen,Home,4806.49,5,Cash on Delivery,2024-10-13,7,4.9,24032.449999999997
+ORD108752,CUS7879,Dr. Katelyn Davis,Dominiqueburgh,Sports,4864.56,5,Debit Card,2026-01-29,4,1.2,24322.800000000003
+ORD109039,CUS7878,Angela Reyes,Petersonburgh,Clothing,4872.46,5,UPI,2026-01-13,5,3.2,24362.3
+ORD109164,CUS9313,Walter Thomas,Port Nathaniel,Sports,4880.79,5,Cash on Delivery,2024-12-22,1,4.9,24403.95
+ORD109382,CUS4464,David Osborne,South Marcus,Beauty,4899.76,5,Cash on Delivery,2025-02-13,7,3.0,24498.800000000003
+ORD109464,CUS4339,Brian Jones,Shannonfurt,Home,4846.25,5,UPI,2025-09-08,7,3.3,24231.25
+ORD109545,CUS2121,Unknown,Port Timothymouth,Books,4711.3,5,Cash on Delivery,2025-09-14,4,3.1,23556.5
+ORD109550,CUS1402,Timothy Smith,Stewartshire,Beauty,4849.2,5,Net Banking,2024-10-13,4,1.3,24246.0
+ORD109641,CUS1621,Timothy House,South Joyce,Home,4816.85,5,Net Banking,2025-12-29,4,1.2,24084.25
+ORD109720,CUS9195,Victor Gray,Jameston,Electronics,4990.48,5,Net Banking,2025-02-28,2,3.9,24952.399999999998
+ORD109744,CUS5829,Randy Aguilar,Luishaven,Clothing,4810.97,5,UPI,2026-03-02,3,4.3,24054.850000000002
+ORD109750,CUS2957,Sara Alvarez,Bradshawside,Electronics,4765.54,5,Credit Card,2025-08-01,3,2.8,23827.7
+ORD109879,CUS8060,Unknown,South Deborahville,Home,4933.61,5,UPI,2025-12-16,3,4.4,24668.05
+ORD109985,CUS7036,Sarah Brown,Martinburgh,Clothing,4955.8,5,UPI,2024-07-11,7,4.9,24779.0
