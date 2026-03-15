@@ -1,15 +1,16 @@
 import pandas as pd
+import os
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
 
-# Step 1: Load dataset
+load_dotenv()
+
 df = pd.read_csv("data/processed/ecommerce_validated.csv")
 
-# Step 2: PostgreSQL connection
 engine = create_engine(
-    "postgresql://postgres:ROHIT264@localhost:5432/ecommerce_analytics"
+    f"postgresql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
 )
 
-# Step 3: Load dataframe into PostgreSQL
 df.to_sql(
     name="ecommerce_transactions",
     con=engine,
@@ -17,4 +18,4 @@ df.to_sql(
     index=False
 )
 
-print("✅ Data successfully loaded into PostgreSQL!")
+print("Data successfully loaded into PostgreSQL!")
