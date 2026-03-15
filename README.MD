@@ -2,7 +2,7 @@
 
 An end-to-end ecommerce analytics pipeline built using Python, PostgreSQL, FastAPI, and Power BI.
 
-This project simulates a real-world data analytics workflow used in modern data-driven companies, where raw data is processed through an ETL pipeline, stored in a database, analyzed using machine learning, and visualized through dashboards.
+This project simulates a real-world data analytics workflow used in modern data-driven companies where raw data is processed through an ETL pipeline, stored in a database, analyzed using machine learning, and visualized using dashboards.
 
 ---
 
@@ -16,8 +16,8 @@ The goal of this project is to build a complete analytics system for ecommerce d
 - Detect abnormal transactions
 - Segment customers based on purchasing behavior
 - Store processed data in PostgreSQL
-- Serve insights via FastAPI APIs
-- Visualize business metrics in Power BI dashboards
+- Serve insights via FastAPI
+- Visualize business metrics in Power BI
 
 ---
 
@@ -31,15 +31,13 @@ Data Validation
 ↓
 Feature Engineering
 ↓
-Machine Learning Analysis
+Machine Learning
 ↓
-PostgreSQL Database
+PostgreSQL
 ↓
-FastAPI Backend
+FastAPI
 ↓
 Power BI Dashboard
-
-This architecture represents a complete end-to-end analytics pipeline.
 
 ---
 
@@ -62,7 +60,7 @@ Database
 
 - PostgreSQL
 
-Backend API
+Backend
 
 - FastAPI
 
@@ -80,35 +78,35 @@ Tools
 
 📂 Project Structure
 
-ecommerce-customer-intelligence
+ecommerce-customer-intelligence/
 │
-├── api
+├── api/
 │   └── main.py
 │
-├── data
-│   ├── raw
+├── data/
+│   ├── raw/
 │   │   └── ecommerce_raw.csv
 │   │
-│   └── processed
+│   └── processed/
 │       ├── ecommerce_cleaned.csv
 │       ├── ecommerce_validated.csv
 │       ├── customer_features.csv
 │       ├── customer_segments.csv
 │       └── anomalous_transactions.csv
 │
-├── notebooks
+├── notebooks/
 │   ├── eda_analysis.ipynb
 │   ├── customer_segmentation.ipynb
 │   └── anomaly_detection.ipynb
 │
-├── src
+├── src/
 │   ├── data_generation.py
 │   ├── data_cleaning.py
 │   ├── data_validation.py
 │   └── load_to_postgres.py
 │
-├── dashboard
-│   └── CUSTOMER_INTELEGENCE_DASHBOARD2
+├── dashboard/
+│   └── ecommsales1.pdf
 │
 ├── requirements.txt
 └── README.md
@@ -117,7 +115,7 @@ ecommerce-customer-intelligence
 
 ⚙️ ETL Pipeline
 
-The project follows a structured ETL (Extract → Transform → Load) workflow.
+The project follows a structured ETL workflow (Extract → Transform → Load).
 
 Extract
 
@@ -130,11 +128,10 @@ Data cleaning and validation steps include:
 - Handling missing values
 - Fixing incorrect data types
 - Ensuring data consistency
-- Preparing features for analytics
 
 Load
 
-Processed data is stored in PostgreSQL, enabling analytics and visualization tools to access the data efficiently.
+Processed data is stored in PostgreSQL for analytics and dashboard use.
 
 ---
 
@@ -150,20 +147,20 @@ Key features used:
 - Total spending
 - Average order value
 
-This helps identify:
+This helps businesses identify:
 
 - High-value customers
-- Regular buyers
-- Occasional shoppers
+- Regular customers
+- Occasional buyers
 
 ---
 
 Anomaly Detection
 
-Machine learning models are used to detect abnormal transactions that may indicate:
+Machine learning models detect abnormal transactions that may indicate:
 
-- Fraudulent activity
-- Unusual purchase patterns
+- Fraudulent transactions
+- Unusual purchasing patterns
 - Data anomalies
 
 ---
@@ -184,28 +181,30 @@ Power BI dashboards provide insights such as:
 
 📊 Power BI Dashboard
 
-The final stage of the pipeline is a Power BI dashboard that visualizes insights generated from the analytics pipeline.
+The final stage of this project is a Power BI dashboard that visualizes insights generated from the analytics pipeline.
 
-After the ETL pipeline processes the ecommerce data and loads it into PostgreSQL, the dataset is used to build interactive visualizations in Power BI.
+After the ETL pipeline processes the ecommerce data and loads it into PostgreSQL, the dataset is used to create interactive visualizations in Power BI.
 
-The dashboard helps business users understand sales performance, customer behavior, and product trends.
+The dashboard helps businesses understand:
+
+- Sales performance
+- Customer behavior
+- Product trends
 
 Key Dashboard Features
 
 - Sales Forecast Trend – Predicts future revenue trends using historical data.
-- Revenue Over Time – Shows how revenue changes across months and years.
+- Revenue Over Time – Shows how sales change across time.
 - Profit by City – Identifies cities generating the highest profit.
-- Top Product Categories – Highlights the most successful categories.
-- Customer Purchase Patterns – Shows spending behavior of customers.
-- Product Rating Distribution – Helps evaluate product satisfaction.
+- Top Product Categories – Shows the best-performing categories.
+- Customer Purchase Patterns – Highlights spending behavior of customers.
+- Product Rating Distribution – Shows product satisfaction levels.
 
 Dashboard File
 
-The Power BI dashboard is included in this repository as a PDF export:
+The Power BI dashboard is included in this repository as a PDF:
 
 dashboard/ecommsales1.pdf
-
-This file contains the complete dashboard with all visualizations and insights.
 
 ---
 
@@ -235,7 +234,7 @@ http://127.0.0.1:8000
 
 Kaustubh Singh
 
-GitHub:
+GitHub
 https://github.com/KaustubhSingh264
 
 ---
