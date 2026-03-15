@@ -77,7 +77,7 @@ Tools
 ---
 
 📂 Project Structure
-
+```
 ecommerce-customer-intelligence/
 │
 ├── api/
@@ -110,7 +110,7 @@ ecommerce-customer-intelligence/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ⚙️ ETL Pipeline
