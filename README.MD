@@ -1,12 +1,12 @@
-# 🛒 Ecommerce Customer Intelligence Pipeline
+🛒 Ecommerce Customer Intelligence Pipeline
 
-An end-to-end ecommerce analytics pipeline built using Python, PostgreSQL, FastAPI and Power BI.
+An end-to-end ecommerce analytics pipeline built using Python, PostgreSQL, FastAPI, and Power BI.
 
-This project simulates a real-world data analytics workflow used in modern data-driven companies.
+This project simulates a real-world data analytics workflow used in modern data-driven companies, where raw data is processed through an ETL pipeline, stored in a database, analyzed using machine learning, and visualized through dashboards.
 
 ---
 
-## 🚀 Project Overview
+🚀 Project Overview
 
 The goal of this project is to build a complete analytics system for ecommerce data that can:
 
@@ -16,97 +16,159 @@ The goal of this project is to build a complete analytics system for ecommerce d
 - Detect abnormal transactions
 - Segment customers based on purchasing behavior
 - Store processed data in PostgreSQL
-- Serve insights via FastAPI
-- Visualize business metrics in Power BI
+- Serve insights via FastAPI APIs
+- Visualize business metrics in Power BI dashboards
 
 ---
 
-## 🏗 Project Architecture
+🏗 Project Architecture
 
-Raw Data → Data Cleaning → Data Validation → Feature Engineering → Machine Learning → PostgreSQL → FastAPI → Power BI Dashboard
+Raw Data
+↓
+Data Cleaning
+↓
+Data Validation
+↓
+Feature Engineering
+↓
+Machine Learning Analysis
+↓
+PostgreSQL Database
+↓
+FastAPI Backend
+↓
+Power BI Dashboard
 
----
-
-## 🧰 Tech Stack
-
-Python  
-Pandas  
-NumPy  
-Scikit-learn  
-PostgreSQL  
-FastAPI  
-Power BI  
-Git & GitHub  
-
----
-
-## 📂 Project Structure
-
-ecommerce-customer-intelligence  
-│  
-├── api  
-│   └── main.py  
-
-├── data  
-│   ├── raw  
-│   │   └── ecommerce_raw.csv  
-│   │  
-│   └── processed  
-│       ├── ecommerce_cleaned.csv  
-│       ├── ecommerce_validated.csv  
-│       ├── customer_features.csv  
-│       ├── customer_segments.csv  
-│       └── anomalous_transactions.csv  
-
-├── notebooks  
-│   ├── eda_analysis.ipynb  
-│   ├── customer_segmentation.ipynb  
-│   └── anomaly_detection.ipynb  
-
-├── src  
-│   ├── data_generation.py  
-│   ├── data_cleaning.py  
-│   ├── data_validation.py  
-│   └── load_to_postgres.py  
-
-├── requirements.txt  
-└── README.md  
+This architecture represents a complete end-to-end analytics pipeline.
 
 ---
 
-## ⚙️ ETL Pipeline
+🧰 Tech Stack
 
-Extract → Transform → Load
+Programming
 
-Extract  
+- Python
+
+Data Processing
+
+- Pandas
+- NumPy
+
+Machine Learning
+
+- Scikit-learn
+
+Database
+
+- PostgreSQL
+
+Backend API
+
+- FastAPI
+
+Visualization
+
+- Power BI
+
+Tools
+
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
+
+📂 Project Structure
+
+ecommerce-customer-intelligence
+│
+├── api
+│   └── main.py
+│
+├── data
+│   ├── raw
+│   │   └── ecommerce_raw.csv
+│   │
+│   └── processed
+│       ├── ecommerce_cleaned.csv
+│       ├── ecommerce_validated.csv
+│       ├── customer_features.csv
+│       ├── customer_segments.csv
+│       └── anomalous_transactions.csv
+│
+├── notebooks
+│   ├── eda_analysis.ipynb
+│   ├── customer_segmentation.ipynb
+│   └── anomaly_detection.ipynb
+│
+├── src
+│   ├── data_generation.py
+│   ├── data_cleaning.py
+│   ├── data_validation.py
+│   └── load_to_postgres.py
+│
+├── dashboard
+│   └── CUSTOMER_INTELEGENCE_DASHBOARD2
+│
+├── requirements.txt
+└── README.md
+
+---
+
+⚙️ ETL Pipeline
+
+The project follows a structured ETL (Extract → Transform → Load) workflow.
+
+Extract
+
 Raw ecommerce transaction data is collected.
 
-Transform  
-Data cleaning and validation:
-- Handle missing values
-- Fix incorrect data types
-- Ensure data consistency
+Transform
 
-Load  
-Processed data is stored in PostgreSQL for analytics and dashboard use.
+Data cleaning and validation steps include:
+
+- Handling missing values
+- Fixing incorrect data types
+- Ensuring data consistency
+- Preparing features for analytics
+
+Load
+
+Processed data is stored in PostgreSQL, enabling analytics and visualization tools to access the data efficiently.
 
 ---
 
-## 🤖 Machine Learning
+🤖 Machine Learning
 
-### Customer Segmentation
-Customers are grouped based on:
+Customer Segmentation
+
+Customers are grouped based on purchasing behavior using clustering techniques.
+
+Key features used:
 
 - Purchase frequency
 - Total spending
 - Average order value
 
-### Anomaly Detection
-Machine learning models detect abnormal transactions that may indicate fraud or unusual purchasing behaviour.
+This helps identify:
+
+- High-value customers
+- Regular buyers
+- Occasional shoppers
 
 ---
 
-## 📊 Dashboard Insights
+Anomaly Detection
+
+Machine learning models are used to detect abnormal transactions that may indicate:
+
+- Fraudulent activity
+- Unusual purchase patterns
+- Data anomalies
+
+---
+
+📊 Dashboard Insights
 
 Power BI dashboards provide insights such as:
 
@@ -120,31 +182,62 @@ Power BI dashboards provide insights such as:
 
 ---
 
-## ▶ Running the Project
+📊 Power BI Dashboard
+
+The final stage of the pipeline is a Power BI dashboard that visualizes insights generated from the analytics pipeline.
+
+After the ETL pipeline processes the ecommerce data and loads it into PostgreSQL, the dataset is used to build interactive visualizations in Power BI.
+
+The dashboard helps business users understand sales performance, customer behavior, and product trends.
+
+Key Dashboard Features
+
+- Sales Forecast Trend – Predicts future revenue trends using historical data.
+- Revenue Over Time – Shows how revenue changes across months and years.
+- Profit by City – Identifies cities generating the highest profit.
+- Top Product Categories – Highlights the most successful categories.
+- Customer Purchase Patterns – Shows spending behavior of customers.
+- Product Rating Distribution – Helps evaluate product satisfaction.
+
+Dashboard File
+
+The Power BI dashboard is included in this repository as a PDF export:
+
+dashboard/ecommsales1.pdf
+
+This file contains the complete dashboard with all visualizations and insights.
+
+---
+
+▶ Running the Project
 
 Install dependencies
 
 pip install -r requirements.txt
 
-Run data pipeline
+Run the ETL pipeline
 
-python src/data_cleaning.py  
-python src/data_validation.py  
-python src/load_to_postgres.py  
+python src/data_cleaning.py
+python src/data_validation.py
+python src/load_to_postgres.py
 
-Run API
+Run the API
 
 uvicorn api.main:app --reload
 
-API will run at:
+API will run locally at:
 
 http://127.0.0.1:8000
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-Kaustubh Singh  
-GitHub: https://github.com/KaustubhSingh264
+Kaustubh Singh
 
-⭐ If you like this project, consider giving it a star!
+GitHub:
+https://github.com/KaustubhSingh264
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
