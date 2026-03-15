@@ -106,7 +106,7 @@ ecommerce-customer-intelligence/
 │   └── load_to_postgres.py
 │
 ├── dashboard/
-│   └── ecommsales1.pdf
+│   └── CUSTOMER_INTELEGENCE_DASHBOARD2
 │
 ├── requirements.txt
 └── README.md
